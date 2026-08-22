@@ -1,0 +1,42 @@
+{
+  "model_version": "rf-v2-20260822T181210Z",
+  "created_at": "2026-08-22T18:12:10.685820+00:00",
+  "artifact_sha256": "ef2db0c99e1eb4ce640549753d1d40e7d8388ee66ddf0bad99bc0ba5cad4012b",
+  "artifact_size_bytes": 21686457,
+  "training_data_sha256": "7ee188d69aca06349a81bac0c2d2d1503058d5aec7124edfd075154fa87d97c8",
+  "training_rows": 30229,
+  "evaluation_protocol": "group_shuffle_split_by_normalized_address_80_20",
+  "evaluation_rows": 6361,
+  "metrics": {
+    "mae_billion_vnd": 1.082212,
+    "mse": 2.052043,
+    "rmse_billion_vnd": 1.432496,
+    "mape_percent": 22.177227,
+    "r2": 0.562767
+  },
+  "training_seconds_before_full_refit": 9.875,
+  "python_version": "3.13.6",
+  "sklearn_version": "1.9.0",
+  "parameters": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "criterion": "squared_error",
+    "max_depth": 24,
+    "max_features": 1.0,
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 2,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 100,
+    "n_jobs": 1,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "total_tree_nodes": 1134356,
+  "maximum_tree_depth": 24
+}

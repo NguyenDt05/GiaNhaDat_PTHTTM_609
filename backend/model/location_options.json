@@ -1,0 +1,2340 @@
+{
+  "generated_at": "2026-08-22T18:12:44.905640+00:00",
+  "code_system": "internal-stable-label-hash-v1",
+  "provinces": [
+    {
+      "code": "P_AN_GIANG_F2D8E207",
+      "label": "An Giang",
+      "model_value": "An Giang",
+      "districts": [
+        {
+          "code": "D_CHAU_OC_0CFFAA06",
+          "label": "Châu Đốc",
+          "model_value": "Châu Đốc"
+        },
+        {
+          "code": "D_LONG_XUYEN_3B2FFBF1",
+          "label": "Long Xuyên",
+          "model_value": "Long Xuyên"
+        },
+        {
+          "code": "D_TINH_BIEN_B8D77DF0",
+          "label": "Tịnh Biên",
+          "model_value": "Tịnh Biên"
+        }
+      ]
+    },
+    {
+      "code": "P_BA_RIA_VUNG_TAU_6A7AFD02",
+      "label": "Bà Rịa Vũng Tàu",
+      "model_value": "Bà Rịa Vũng Tàu",
+      "districts": [
+        {
+          "code": "D_BA_RIA_D65639EA",
+          "label": "Bà Rịa",
+          "model_value": "Bà Rịa"
+        },
+        {
+          "code": "D_CHAU_UC_AAED8B85",
+          "label": "Châu Đức",
+          "model_value": "Châu Đức"
+        },
+        {
+          "code": "D_HUYEN_XUYEN_MOC_F1F36634",
+          "label": "Huyện Xuyên Mộc",
+          "model_value": "Huyện Xuyên Mộc"
+        },
+        {
+          "code": "D_LONG_IEN_D01B60C1",
+          "label": "Long Điền",
+          "model_value": "Long Điền"
+        },
+        {
+          "code": "D_PHU_MY_98479300",
+          "label": "Phú Mỹ",
+          "model_value": "Phú Mỹ"
+        },
+        {
+          "code": "D_THANH_PHO_BA_RIA_3C944BE7",
+          "label": "Thành phố Bà Rịa",
+          "model_value": "Thành phố Bà Rịa"
+        },
+        {
+          "code": "D_THANH_PHO_VUNG_TAU_52FE15BD",
+          "label": "Thành phố Vũng Tàu",
+          "model_value": "Thành phố Vũng Tàu"
+        },
+        {
+          "code": "D_THI_XA_PHU_MY_73FC4D63",
+          "label": "Thị Xã Phú Mỹ",
+          "model_value": "Thị Xã Phú Mỹ"
+        },
+        {
+          "code": "D_THI_XA_PHU_MY_3F9752B4",
+          "label": "Thị xã Phú Mỹ",
+          "model_value": "Thị xã Phú Mỹ"
+        },
+        {
+          "code": "D_VUNG_TAU_A29A8D14",
+          "label": "Vũng Tàu",
+          "model_value": "Vũng Tàu"
+        },
+        {
+          "code": "D_XUYEN_MOC_CDAE437E",
+          "label": "Xuyên Mộc",
+          "model_value": "Xuyên Mộc"
+        },
+        {
+          "code": "D_AT_O_E6644CC2",
+          "label": "Đất Đỏ",
+          "model_value": "Đất Đỏ"
+        }
+      ]
+    },
+    {
+      "code": "P_BAN_NHA_CHINH_CHU_PHO_UC_CHINH_K_41479870",
+      "label": "Bán nhà chính chủ Phó Đức Chính khu Bà Chiểu - trung tâm Bình Thạnh giá cực tốt",
+      "model_value": "Bán nhà chính chủ Phó Đức Chính khu Bà Chiểu - trung tâm Bình Thạnh giá cực tốt",
+      "districts": [
+        {
+          "code": "D_UNKNOWN_502979FB",
+          "label": "Unknown",
+          "model_value": "Unknown"
+        }
+      ]
+    },
+    {
+      "code": "P_BINH_DUONG_865A4AB7",
+      "label": "Bình Dương",
+      "model_value": "Bình Dương",
+      "districts": [
+        {
+          "code": "D_BAU_BANG_FD82D778",
+          "label": "Bàu Bàng",
+          "model_value": "Bàu Bàng"
+        },
+        {
+          "code": "D_BEN_CAT_733283C6",
+          "label": "Bến Cát",
+          "model_value": "Bến Cát"
+        },
+        {
+          "code": "D_DI_AN_DD9CDC39",
+          "label": "Dĩ An",
+          "model_value": "Dĩ An"
+        },
+        {
+          "code": "D_HUYEN_PHU_GIAO_9BAC8F65",
+          "label": "Huyện Phú Giáo",
+          "model_value": "Huyện Phú Giáo"
+        },
+        {
+          "code": "D_PHU_GIAO_2965E6CE",
+          "label": "Phú Giáo",
+          "model_value": "Phú Giáo"
+        },
+        {
+          "code": "D_THUAN_AN_3A9BC148",
+          "label": "Thuận An",
+          "model_value": "Thuận An"
+        },
+        {
+          "code": "D_THANH_PHO_DI_AN_5543DC80",
+          "label": "Thành phố Dĩ An",
+          "model_value": "Thành phố Dĩ An"
+        },
+        {
+          "code": "D_THANH_PHO_THUAN_AN_2F640514",
+          "label": "Thành phố Thuận An",
+          "model_value": "Thành phố Thuận An"
+        },
+        {
+          "code": "D_THANH_PHO_THU_DAU_MOT_5B1C5B92",
+          "label": "Thành phố Thủ Dầu Một",
+          "model_value": "Thành phố Thủ Dầu Một"
+        },
+        {
+          "code": "D_THANH_PHO_TAN_UYEN_1F5CB07C",
+          "label": "Thành phố Tân Uyên",
+          "model_value": "Thành phố Tân Uyên"
+        },
+        {
+          "code": "D_THU_DAU_MOT_54EBCB4F",
+          "label": "Thủ Dầu Một",
+          "model_value": "Thủ Dầu Một"
+        },
+        {
+          "code": "D_TAN_UYEN_54DBC046",
+          "label": "Tân Uyên",
+          "model_value": "Tân Uyên"
+        }
+      ]
+    },
+    {
+      "code": "P_BINH_DUONG_GAN_CAFE_XOM_VANG_2_CC1E2134",
+      "label": "Bình Dương (gần cafe Xóm Vắng 2)",
+      "model_value": "Bình Dương (gần cafe Xóm Vắng 2)",
+      "districts": [
+        {
+          "code": "D_DI_AN_3C823905",
+          "label": "Dĩ An",
+          "model_value": "Dĩ An"
+        }
+      ]
+    },
+    {
+      "code": "P_BINH_PHUOC_840AFCFB",
+      "label": "Bình Phước",
+      "model_value": "Bình Phước",
+      "districts": [
+        {
+          "code": "D_BU_ANG_7D970D6E",
+          "label": "Bù Đăng",
+          "model_value": "Bù Đăng"
+        },
+        {
+          "code": "D_CHON_THANH_8935651F",
+          "label": "Chơn Thành",
+          "model_value": "Chơn Thành"
+        },
+        {
+          "code": "D_THI_XA_ONG_XOAI_5D580CA8",
+          "label": "Thị xã Đồng Xoài",
+          "model_value": "Thị xã Đồng Xoài"
+        },
+        {
+          "code": "D_ONG_XOAI_C10FDDD4",
+          "label": "Đồng Xoài",
+          "model_value": "Đồng Xoài"
+        }
+      ]
+    },
+    {
+      "code": "P_BINH_THUAN_0402E8F6",
+      "label": "Bình Thuận",
+      "model_value": "Bình Thuận",
+      "districts": [
+        {
+          "code": "D_HAM_THUAN_NAM_4E73391D",
+          "label": "Hàm Thuận Nam",
+          "model_value": "Hàm Thuận Nam"
+        },
+        {
+          "code": "D_LA_GI_BF4540A7",
+          "label": "La Gi",
+          "model_value": "La Gi"
+        },
+        {
+          "code": "D_PHAN_THIET_75D31C9A",
+          "label": "Phan Thiết",
+          "model_value": "Phan Thiết"
+        },
+        {
+          "code": "D_THANH_PHO_PHAN_THIET_A8933E57",
+          "label": "Thành phố Phan Thiết",
+          "model_value": "Thành phố Phan Thiết"
+        },
+        {
+          "code": "D_TANH_LINH_4B38F295",
+          "label": "Tánh Linh",
+          "model_value": "Tánh Linh"
+        },
+        {
+          "code": "D_AO_PHU_QUY_9BE4D1A2",
+          "label": "Đảo Phú Quý",
+          "model_value": "Đảo Phú Quý"
+        }
+      ]
+    },
+    {
+      "code": "P_BINH_INH_2987A81C",
+      "label": "Bình Định",
+      "model_value": "Bình Định",
+      "districts": [
+        {
+          "code": "D_AN_NHON_BB270E3F",
+          "label": "An Nhơn",
+          "model_value": "An Nhơn"
+        },
+        {
+          "code": "D_HOAI_NHON_0F4F8CFC",
+          "label": "Hoài Nhơn",
+          "model_value": "Hoài Nhơn"
+        },
+        {
+          "code": "D_HUYEN_PHU_CAT_C8A01534",
+          "label": "Huyện Phù Cát",
+          "model_value": "Huyện Phù Cát"
+        },
+        {
+          "code": "D_PHU_CAT_2D7B4304",
+          "label": "Phù Cát",
+          "model_value": "Phù Cát"
+        },
+        {
+          "code": "D_QUY_NHON_B9B3243F",
+          "label": "Quy Nhơn",
+          "model_value": "Quy Nhơn"
+        },
+        {
+          "code": "D_THANH_PHO_QUY_NHON_F4E17F33",
+          "label": "Thành phố Quy Nhơn",
+          "model_value": "Thành phố Quy Nhơn"
+        }
+      ]
+    },
+    {
+      "code": "P_BAC_LIEU_D6B328DD",
+      "label": "Bạc Liêu",
+      "model_value": "Bạc Liêu",
+      "districts": [
+        {
+          "code": "D_BAC_LIEU_481AE11A",
+          "label": "Bạc Liêu",
+          "model_value": "Bạc Liêu"
+        },
+        {
+          "code": "D_HUYEN_VINH_LOI_BEA32778",
+          "label": "Huyện Vĩnh Lợi",
+          "model_value": "Huyện Vĩnh Lợi"
+        }
+      ]
+    },
+    {
+      "code": "P_BAC_GIANG_EF4B794E",
+      "label": "Bắc Giang",
+      "model_value": "Bắc Giang",
+      "districts": [
+        {
+          "code": "D_BAC_GIANG_A93A1836",
+          "label": "Bắc Giang",
+          "model_value": "Bắc Giang"
+        },
+        {
+          "code": "D_HIEP_HOA_11B6E739",
+          "label": "Hiệp Hòa",
+          "model_value": "Hiệp Hòa"
+        },
+        {
+          "code": "D_LANG_GIANG_9160D0C0",
+          "label": "Lạng Giang",
+          "model_value": "Lạng Giang"
+        },
+        {
+          "code": "D_LUC_NGAN_D3F5F2F0",
+          "label": "Lục Ngạn",
+          "model_value": "Lục Ngạn"
+        },
+        {
+          "code": "D_VIET_YEN_FCD3C114",
+          "label": "Việt Yên",
+          "model_value": "Việt Yên"
+        },
+        {
+          "code": "D_YEN_DUNG_78283662",
+          "label": "Yên Dũng",
+          "model_value": "Yên Dũng"
+        }
+      ]
+    },
+    {
+      "code": "P_BAC_NINH_61F7CA34",
+      "label": "Bắc Ninh",
+      "model_value": "Bắc Ninh",
+      "districts": [
+        {
+          "code": "D_BAC_NINH_1BB8BDD3",
+          "label": "Bắc Ninh",
+          "model_value": "Bắc Ninh"
+        },
+        {
+          "code": "D_THUAN_THANH_EB8C9C2A",
+          "label": "Thuận Thành",
+          "model_value": "Thuận Thành"
+        },
+        {
+          "code": "D_TIEN_DU_9B415E59",
+          "label": "Tiên Du",
+          "model_value": "Tiên Du"
+        },
+        {
+          "code": "D_TU_SON_0D0FF37A",
+          "label": "Từ Sơn",
+          "model_value": "Từ Sơn"
+        },
+        {
+          "code": "D_YEN_PHONG_21792A0A",
+          "label": "Yên Phong",
+          "model_value": "Yên Phong"
+        }
+      ]
+    },
+    {
+      "code": "P_BEN_TRE_EDF83C9E",
+      "label": "Bến Tre",
+      "model_value": "Bến Tre",
+      "districts": [
+        {
+          "code": "D_BEN_TRE_53D55F76",
+          "label": "Bến Tre",
+          "model_value": "Bến Tre"
+        },
+        {
+          "code": "D_CHAU_THANH_F631343A",
+          "label": "Châu Thành",
+          "model_value": "Châu Thành"
+        },
+        {
+          "code": "D_CHO_LACH_F10BBE00",
+          "label": "Chợ Lách",
+          "model_value": "Chợ Lách"
+        },
+        {
+          "code": "D_THANH_PHO_BEN_TRE_5375FE69",
+          "label": "Thành phố Bến Tre",
+          "model_value": "Thành phố Bến Tre"
+        }
+      ]
+    },
+    {
+      "code": "P_CA_MAU_DE0F3DF4",
+      "label": "Cà Mau",
+      "model_value": "Cà Mau",
+      "districts": [
+        {
+          "code": "D_CA_MAU_096389ED",
+          "label": "Cà Mau",
+          "model_value": "Cà Mau"
+        },
+        {
+          "code": "D_TRAN_VAN_THOI_586E9DAD",
+          "label": "Trần Văn Thời",
+          "model_value": "Trần Văn Thời"
+        }
+      ]
+    },
+    {
+      "code": "P_CAN_THO_9CBE5567",
+      "label": "Cần Thơ",
+      "model_value": "Cần Thơ",
+      "districts": [
+        {
+          "code": "D_BINH_THUY_CDECE9E6",
+          "label": "Bình Thủy",
+          "model_value": "Bình Thủy"
+        },
+        {
+          "code": "D_CAI_RANG_37E56C83",
+          "label": "Cái Răng",
+          "model_value": "Cái Răng"
+        },
+        {
+          "code": "D_NINH_KIEU_AC3CDEFA",
+          "label": "Ninh Kiều",
+          "model_value": "Ninh Kiều"
+        },
+        {
+          "code": "D_PHONG_IEN_EFFDF147",
+          "label": "Phong Điền",
+          "model_value": "Phong Điền"
+        }
+      ]
+    },
+    {
+      "code": "P_GIA_LAI_268D0559",
+      "label": "Gia Lai",
+      "model_value": "Gia Lai",
+      "districts": [
+        {
+          "code": "D_CHU_PAH_6F422384",
+          "label": "Chư Păh",
+          "model_value": "Chư Păh"
+        },
+        {
+          "code": "D_IA_GRAI_C579E24B",
+          "label": "Ia Grai",
+          "model_value": "Ia Grai"
+        },
+        {
+          "code": "D_PLEI_KU_6E4E7028",
+          "label": "Plei Ku",
+          "model_value": "Plei Ku"
+        },
+        {
+          "code": "D_THANH_PHO_PLEI_KU_24434CB5",
+          "label": "Thành phố Plei Ku",
+          "model_value": "Thành phố Plei Ku"
+        }
+      ]
+    },
+    {
+      "code": "P_HN_CC5DE08F",
+      "label": "HN",
+      "model_value": "HN",
+      "districts": [
+        {
+          "code": "D_QUAN_LONG_BIEN_638C6C36",
+          "label": "Quận Long Biên",
+          "model_value": "Quận Long Biên"
+        }
+      ]
+    },
+    {
+      "code": "P_HAI_BA_TRUNG_2DF27D70",
+      "label": "Hai Bà Trưng",
+      "model_value": "Hai Bà Trưng",
+      "districts": [
+        {
+          "code": "D_PHUONG_TRUONG_INH_ECB2FFBF",
+          "label": "Phường Trương Định",
+          "model_value": "Phường Trương Định"
+        }
+      ]
+    },
+    {
+      "code": "P_HA_NOI_658D24B7",
+      "label": "Hà Nội",
+      "model_value": "Hà Nội",
+      "districts": [
+        {
+          "code": "D_HA_ONG_24EFF578",
+          "label": "Hà Đông",
+          "model_value": "Hà Đông"
+        },
+        {
+          "code": "D_NAM_TU_LIEM_F222D186",
+          "label": "Nam Từ Liêm",
+          "model_value": "Nam Từ Liêm"
+        },
+        {
+          "code": "D_TAY_HO_A252CA33",
+          "label": "Tây Hồ",
+          "model_value": "Tây Hồ"
+        }
+      ]
+    },
+    {
+      "code": "P_HA_GIANG_411D2EB3",
+      "label": "Hà Giang",
+      "model_value": "Hà Giang",
+      "districts": [
+        {
+          "code": "D_THANH_PHO_HA_GIANG_7ECB3D0E",
+          "label": "Thành phố Hà Giang",
+          "model_value": "Thành phố Hà Giang"
+        }
+      ]
+    },
+    {
+      "code": "P_HA_NAM_9B432ED4",
+      "label": "Hà Nam",
+      "model_value": "Hà Nam",
+      "districts": [
+        {
+          "code": "D_KIM_BANG_70DFAA1A",
+          "label": "Kim Bảng",
+          "model_value": "Kim Bảng"
+        },
+        {
+          "code": "D_PHU_LY_026076E6",
+          "label": "Phủ Lý",
+          "model_value": "Phủ Lý"
+        },
+        {
+          "code": "D_THANH_LIEM_8C6FA801",
+          "label": "Thanh Liêm",
+          "model_value": "Thanh Liêm"
+        }
+      ]
+    },
+    {
+      "code": "P_HA_NOI_D3C20E45",
+      "label": "Hà Nội",
+      "model_value": "Hà Nội",
+      "districts": [
+        {
+          "code": "D_BA_VI_DEE4514B",
+          "label": "Ba Vì",
+          "model_value": "Ba Vì"
+        },
+        {
+          "code": "D_BA_INH_B35778C7",
+          "label": "Ba Đình",
+          "model_value": "Ba Đình"
+        },
+        {
+          "code": "D_BAC_TU_LIEM_498FB5F5",
+          "label": "Bắc Từ Liêm",
+          "model_value": "Bắc Từ Liêm"
+        },
+        {
+          "code": "D_CHUONG_MY_0BE681DA",
+          "label": "Chương Mỹ",
+          "model_value": "Chương Mỹ"
+        },
+        {
+          "code": "D_CAU_GIAY_F476DCE6",
+          "label": "Cầu Giấy",
+          "model_value": "Cầu Giấy"
+        },
+        {
+          "code": "D_GIA_LAM_BFD37802",
+          "label": "Gia Lâm",
+          "model_value": "Gia Lâm"
+        },
+        {
+          "code": "D_HAI_BA_TRUNG_1330EAEE",
+          "label": "Hai Bà Trưng",
+          "model_value": "Hai Bà Trưng"
+        },
+        {
+          "code": "D_HOAI_UC_7224C022",
+          "label": "Hoài Đức",
+          "model_value": "Hoài Đức"
+        },
+        {
+          "code": "D_HOAN_KIEM_640BB61A",
+          "label": "Hoàn Kiếm",
+          "model_value": "Hoàn Kiếm"
+        },
+        {
+          "code": "D_HOANG_MAI_33906528",
+          "label": "Hoàng Mai",
+          "model_value": "Hoàng Mai"
+        },
+        {
+          "code": "D_HUYEN_CHUONG_MY_D8F8A514",
+          "label": "Huyện Chương Mỹ",
+          "model_value": "Huyện Chương Mỹ"
+        },
+        {
+          "code": "D_HUYEN_GIA_LAM_4B48CC43",
+          "label": "Huyện Gia Lâm",
+          "model_value": "Huyện Gia Lâm"
+        },
+        {
+          "code": "D_HUYEN_HOAI_UC_61C08AF2",
+          "label": "Huyện Hoài Đức",
+          "model_value": "Huyện Hoài Đức"
+        },
+        {
+          "code": "D_HUYEN_QUOC_OAI_6EA89A6B",
+          "label": "Huyện Quốc Oai",
+          "model_value": "Huyện Quốc Oai"
+        },
+        {
+          "code": "D_HUYEN_SOC_SON_5B5C331A",
+          "label": "Huyện Sóc Sơn",
+          "model_value": "Huyện Sóc Sơn"
+        },
+        {
+          "code": "D_HUYEN_THANH_OAI_A0D8E6A0",
+          "label": "Huyện Thanh Oai",
+          "model_value": "Huyện Thanh Oai"
+        },
+        {
+          "code": "D_HUYEN_THANH_TRI_1A9A638D",
+          "label": "Huyện Thanh Trì",
+          "model_value": "Huyện Thanh Trì"
+        },
+        {
+          "code": "D_HUYEN_THUONG_TIN_F02B4C8B",
+          "label": "Huyện Thường Tín",
+          "model_value": "Huyện Thường Tín"
+        },
+        {
+          "code": "D_HUYEN_AN_PHUONG_FD9B92AC",
+          "label": "Huyện Đan Phượng",
+          "model_value": "Huyện Đan Phượng"
+        },
+        {
+          "code": "D_HUYEN_ONG_ANH_589AA913",
+          "label": "Huyện Đông Anh",
+          "model_value": "Huyện Đông Anh"
+        },
+        {
+          "code": "D_HA_ONG_F1C75DF0",
+          "label": "Hà Đông",
+          "model_value": "Hà Đông"
+        },
+        {
+          "code": "D_LONG_BIEN_2D5F4802",
+          "label": "Long Biên",
+          "model_value": "Long Biên"
+        },
+        {
+          "code": "D_ME_LINH_5E4A4DBB",
+          "label": "Mê Linh",
+          "model_value": "Mê Linh"
+        },
+        {
+          "code": "D_NAM_TU_LIEM_D55EE50B",
+          "label": "Nam Từ Liêm",
+          "model_value": "Nam Từ Liêm"
+        },
+        {
+          "code": "D_PHU_XUYEN_DB6DB612",
+          "label": "Phú Xuyên",
+          "model_value": "Phú Xuyên"
+        },
+        {
+          "code": "D_PHUONG_VIET_HUNG_1A04E115",
+          "label": "Phường Việt Hưng",
+          "model_value": "Phường Việt Hưng"
+        },
+        {
+          "code": "D_QUAN_BA_INH_49BA39C4",
+          "label": "Quận Ba Đình",
+          "model_value": "Quận Ba Đình"
+        },
+        {
+          "code": "D_QUAN_HAI_BA_TRUNG_77832BA1",
+          "label": "Quận Hai Bà Trưng",
+          "model_value": "Quận Hai Bà Trưng"
+        },
+        {
+          "code": "D_QUAN_HOANG_MAI_EA7B35A8",
+          "label": "Quận Hoàng Mai",
+          "model_value": "Quận Hoàng Mai"
+        },
+        {
+          "code": "D_QUAN_HA_ONG_6938AFBB",
+          "label": "Quận Hà Đông",
+          "model_value": "Quận Hà Đông"
+        },
+        {
+          "code": "D_QUAN_LONG_BIEN_9C7DAB40",
+          "label": "Quận Long Biên",
+          "model_value": "Quận Long Biên"
+        },
+        {
+          "code": "D_QUAN_NAM_TU_LIEM_55C59069",
+          "label": "Quận Nam Từ Liêm",
+          "model_value": "Quận Nam Từ Liêm"
+        },
+        {
+          "code": "D_QUAN_TAY_HO_74920CD3",
+          "label": "Quận Tây Hồ",
+          "model_value": "Quận Tây Hồ"
+        },
+        {
+          "code": "D_QUOC_OAI_71AB9FE6",
+          "label": "Quốc Oai",
+          "model_value": "Quốc Oai"
+        },
+        {
+          "code": "D_SOC_SON_45368368",
+          "label": "Sóc Sơn",
+          "model_value": "Sóc Sơn"
+        },
+        {
+          "code": "D_SON_TAY_540281D2",
+          "label": "Sơn Tây",
+          "model_value": "Sơn Tây"
+        },
+        {
+          "code": "D_THANH_OAI_0B9BF057",
+          "label": "Thanh Oai",
+          "model_value": "Thanh Oai"
+        },
+        {
+          "code": "D_THANH_TRI_1311EAB9",
+          "label": "Thanh Trì",
+          "model_value": "Thanh Trì"
+        },
+        {
+          "code": "D_THANH_XUAN_58D5C397",
+          "label": "Thanh Xuân",
+          "model_value": "Thanh Xuân"
+        },
+        {
+          "code": "D_THUONG_TIN_8C10EC7E",
+          "label": "Thường Tín",
+          "model_value": "Thường Tín"
+        },
+        {
+          "code": "D_THACH_THAT_C197157F",
+          "label": "Thạch Thất",
+          "model_value": "Thạch Thất"
+        },
+        {
+          "code": "D_TAY_HO_B3FB9CC2",
+          "label": "Tây Hồ",
+          "model_value": "Tây Hồ"
+        },
+        {
+          "code": "D_AN_PHUONG_3A015ED8",
+          "label": "Đan Phượng",
+          "model_value": "Đan Phượng"
+        },
+        {
+          "code": "D_ONG_ANH_36FA1784",
+          "label": "Đông Anh",
+          "model_value": "Đông Anh"
+        },
+        {
+          "code": "D_ONG_A_F6964F6C",
+          "label": "Đống Đa",
+          "model_value": "Đống Đa"
+        },
+        {
+          "code": "D_UNG_HOA_D650B73D",
+          "label": "Ứng Hòa",
+          "model_value": "Ứng Hòa"
+        }
+      ]
+    },
+    {
+      "code": "P_HA_TINH_9600F3ED",
+      "label": "Hà Tĩnh",
+      "model_value": "Hà Tĩnh",
+      "districts": [
+        {
+          "code": "D_NGHI_XUAN_BD2D26A8",
+          "label": "Nghi Xuân",
+          "model_value": "Nghi Xuân"
+        },
+        {
+          "code": "D_THACH_HA_4FDA10B6",
+          "label": "Thạch Hà",
+          "model_value": "Thạch Hà"
+        }
+      ]
+    },
+    {
+      "code": "P_HOA_BINH_C3F93540",
+      "label": "Hòa Bình",
+      "model_value": "Hòa Bình",
+      "districts": [
+        {
+          "code": "D_HUYEN_KIM_BOI_F1A1BA93",
+          "label": "Huyện Kim Bôi",
+          "model_value": "Huyện Kim Bôi"
+        },
+        {
+          "code": "D_HUYEN_LUONG_SON_E45F16D4",
+          "label": "Huyện Lương Sơn",
+          "model_value": "Huyện Lương Sơn"
+        },
+        {
+          "code": "D_HOA_BINH_DCF7C9CD",
+          "label": "Hòa Bình",
+          "model_value": "Hòa Bình"
+        },
+        {
+          "code": "D_LUONG_SON_00427D58",
+          "label": "Lương Sơn",
+          "model_value": "Lương Sơn"
+        },
+        {
+          "code": "D_LAC_THUY_8749E389",
+          "label": "Lạc Thủy",
+          "model_value": "Lạc Thủy"
+        },
+        {
+          "code": "D_THANH_PHO_HOA_BINH_116ACFD3",
+          "label": "Thành phố Hòa Bình",
+          "model_value": "Thành phố Hòa Bình"
+        }
+      ]
+    },
+    {
+      "code": "P_HUNG_YEN_FC42653A",
+      "label": "Hưng Yên",
+      "model_value": "Hưng Yên",
+      "districts": [
+        {
+          "code": "D_HUYEN_KHOAI_CHAU_FFFFCBE6",
+          "label": "Huyện Khoái Châu",
+          "model_value": "Huyện Khoái Châu"
+        },
+        {
+          "code": "D_HUYEN_VAN_GIANG_EB980565",
+          "label": "Huyện Văn Giang",
+          "model_value": "Huyện Văn Giang"
+        },
+        {
+          "code": "D_MY_HAO_368B3821",
+          "label": "Mỹ Hào",
+          "model_value": "Mỹ Hào"
+        },
+        {
+          "code": "D_VAN_GIANG_35A1612F",
+          "label": "Văn Giang",
+          "model_value": "Văn Giang"
+        },
+        {
+          "code": "D_VAN_LAM_D2ED26E5",
+          "label": "Văn Lâm",
+          "model_value": "Văn Lâm"
+        },
+        {
+          "code": "D_YEN_MY_6614F503",
+          "label": "Yên Mỹ",
+          "model_value": "Yên Mỹ"
+        }
+      ]
+    },
+    {
+      "code": "P_HAI_DUONG_786AA24D",
+      "label": "Hải Dương",
+      "model_value": "Hải Dương",
+      "districts": [
+        {
+          "code": "D_CHI_LINH_0B36201A",
+          "label": "Chí Linh",
+          "model_value": "Chí Linh"
+        },
+        {
+          "code": "D_HAI_DUONG_CDCA858B",
+          "label": "Hải Dương",
+          "model_value": "Hải Dương"
+        },
+        {
+          "code": "D_KINH_MON_5C2FA724",
+          "label": "Kinh Môn",
+          "model_value": "Kinh Môn"
+        },
+        {
+          "code": "D_THANH_MIEN_145242D0",
+          "label": "Thanh Miện",
+          "model_value": "Thanh Miện"
+        }
+      ]
+    },
+    {
+      "code": "P_HAI_PHONG_30D1C0A1",
+      "label": "Hải Phòng",
+      "model_value": "Hải Phòng",
+      "districts": [
+        {
+          "code": "D_AN_DUONG_94EFB7E9",
+          "label": "An Dương",
+          "model_value": "An Dương"
+        },
+        {
+          "code": "D_AN_LAO_AAB4CE91",
+          "label": "An Lão",
+          "model_value": "An Lão"
+        },
+        {
+          "code": "D_DUONG_KINH_48EA2635",
+          "label": "Dương Kinh",
+          "model_value": "Dương Kinh"
+        },
+        {
+          "code": "D_HUYEN_AN_DUONG_50A8499A",
+          "label": "Huyện An Dương",
+          "model_value": "Huyện An Dương"
+        },
+        {
+          "code": "D_HUYEN_THUY_NGUYEN_780CFEB0",
+          "label": "Huyện Thủy Nguyên",
+          "model_value": "Huyện Thủy Nguyên"
+        },
+        {
+          "code": "D_HAI_AN_1014FCE8",
+          "label": "Hải An",
+          "model_value": "Hải An"
+        },
+        {
+          "code": "D_HONG_BANG_EBC8153B",
+          "label": "Hồng Bàng",
+          "model_value": "Hồng Bàng"
+        },
+        {
+          "code": "D_KIEN_AN_1F12466C",
+          "label": "Kiến An",
+          "model_value": "Kiến An"
+        },
+        {
+          "code": "D_KIEN_THUY_8FECEC3A",
+          "label": "Kiến Thụy",
+          "model_value": "Kiến Thụy"
+        },
+        {
+          "code": "D_LE_CHAN_1E6C5FA0",
+          "label": "Lê Chân",
+          "model_value": "Lê Chân"
+        },
+        {
+          "code": "D_NGO_QUYEN_F3009E26",
+          "label": "Ngô Quyền",
+          "model_value": "Ngô Quyền"
+        },
+        {
+          "code": "D_QUAN_HONG_BANG_BD6BB95C",
+          "label": "Quận Hồng Bàng",
+          "model_value": "Quận Hồng Bàng"
+        },
+        {
+          "code": "D_QUAN_KIEN_AN_301D08F0",
+          "label": "Quận Kiến An",
+          "model_value": "Quận Kiến An"
+        },
+        {
+          "code": "D_QUAN_LE_CHAN_6991D793",
+          "label": "Quận Lê Chân",
+          "model_value": "Quận Lê Chân"
+        },
+        {
+          "code": "D_THUY_NGUYEN_5DAF363C",
+          "label": "Thủy Nguyên",
+          "model_value": "Thủy Nguyên"
+        },
+        {
+          "code": "D_VINH_BAO_B4A5B3E8",
+          "label": "Vĩnh Bảo",
+          "model_value": "Vĩnh Bảo"
+        },
+        {
+          "code": "D_O_SON_6FFEFC38",
+          "label": "Đồ Sơn",
+          "model_value": "Đồ Sơn"
+        }
+      ]
+    },
+    {
+      "code": "P_HAU_GIANG_F26AF52C",
+      "label": "Hậu Giang",
+      "model_value": "Hậu Giang",
+      "districts": [
+        {
+          "code": "D_PHUNG_HIEP_E610330D",
+          "label": "Phụng Hiệp",
+          "model_value": "Phụng Hiệp"
+        }
+      ]
+    },
+    {
+      "code": "P_HO_CHI_MINH_1BED55B0",
+      "label": "Hồ Chí Minh",
+      "model_value": "Hồ Chí Minh",
+      "districts": [
+        {
+          "code": "D_BINH_CHANH_93573F25",
+          "label": "Bình Chánh",
+          "model_value": "Bình Chánh"
+        },
+        {
+          "code": "D_BINH_THANH_4A6C91F6",
+          "label": "Bình Thạnh",
+          "model_value": "Bình Thạnh"
+        },
+        {
+          "code": "D_BINH_TAN_C0C6FB18",
+          "label": "Bình Tân",
+          "model_value": "Bình Tân"
+        },
+        {
+          "code": "D_CAN_GIO_94604B59",
+          "label": "Cần Giờ",
+          "model_value": "Cần Giờ"
+        },
+        {
+          "code": "D_CU_CHI_AAFCF619",
+          "label": "Củ Chi",
+          "model_value": "Củ Chi"
+        },
+        {
+          "code": "D_GO_VAP_B5B21BED",
+          "label": "Gò Vấp",
+          "model_value": "Gò Vấp"
+        },
+        {
+          "code": "D_HUYEN_BINH_CHANH_23EDCB9B",
+          "label": "Huyện Bình Chánh",
+          "model_value": "Huyện Bình Chánh"
+        },
+        {
+          "code": "D_HUYEN_CAN_GIO_C3064644",
+          "label": "Huyện Cần Giờ",
+          "model_value": "Huyện Cần Giờ"
+        },
+        {
+          "code": "D_HOC_MON_27D01A18",
+          "label": "Hóc Môn",
+          "model_value": "Hóc Môn"
+        },
+        {
+          "code": "D_NHA_BE_8759EB8B",
+          "label": "Nhà Bè",
+          "model_value": "Nhà Bè"
+        },
+        {
+          "code": "D_PHU_NHUAN_06AD9C27",
+          "label": "Phú Nhuận",
+          "model_value": "Phú Nhuận"
+        },
+        {
+          "code": "D_PHUONG_BINH_HUNG_HOA_TAN_8E7AA285",
+          "label": "Phường Bình Hưng Hòa  Tân",
+          "model_value": "Phường Bình Hưng Hòa  Tân"
+        },
+        {
+          "code": "D_QUAN_1_8030F6FF",
+          "label": "Quận 1",
+          "model_value": "Quận 1"
+        },
+        {
+          "code": "D_QUAN_10_056488F7",
+          "label": "Quận 10",
+          "model_value": "Quận 10"
+        },
+        {
+          "code": "D_QUAN_11_DF11FEDF",
+          "label": "Quận 11",
+          "model_value": "Quận 11"
+        },
+        {
+          "code": "D_QUAN_12_A929BB26",
+          "label": "Quận 12",
+          "model_value": "Quận 12"
+        },
+        {
+          "code": "D_QUAN_2_9BCBB40D",
+          "label": "Quận 2",
+          "model_value": "Quận 2"
+        },
+        {
+          "code": "D_QUAN_3_87506CDC",
+          "label": "Quận 3",
+          "model_value": "Quận 3"
+        },
+        {
+          "code": "D_QUAN_4_1D58657E",
+          "label": "Quận 4",
+          "model_value": "Quận 4"
+        },
+        {
+          "code": "D_QUAN_5_E661024A",
+          "label": "Quận 5",
+          "model_value": "Quận 5"
+        },
+        {
+          "code": "D_QUAN_6_8A09CE6E",
+          "label": "Quận 6",
+          "model_value": "Quận 6"
+        },
+        {
+          "code": "D_QUAN_7_6FAAB6ED",
+          "label": "Quận 7",
+          "model_value": "Quận 7"
+        },
+        {
+          "code": "D_QUAN_8_5C77D143",
+          "label": "Quận 8",
+          "model_value": "Quận 8"
+        },
+        {
+          "code": "D_QUAN_9_1DA7D6BE",
+          "label": "Quận 9",
+          "model_value": "Quận 9"
+        },
+        {
+          "code": "D_QUAN_BINH_TAN_389D0B66",
+          "label": "Quận Bình Tân",
+          "model_value": "Quận Bình Tân"
+        },
+        {
+          "code": "D_QUAN_TAN_BINH_6C830AE7",
+          "label": "Quận Tân Bình",
+          "model_value": "Quận Tân Bình"
+        },
+        {
+          "code": "D_QUAN_TAN_PHU_47986588",
+          "label": "Quận Tân Phú",
+          "model_value": "Quận Tân Phú"
+        },
+        {
+          "code": "D_THANH_PHO_THU_UC_FB431B8A",
+          "label": "Thành phố Thủ Đức",
+          "model_value": "Thành phố Thủ Đức"
+        },
+        {
+          "code": "D_THU_UC_1367DB7B",
+          "label": "Thủ Đức",
+          "model_value": "Thủ Đức"
+        },
+        {
+          "code": "D_TAN_BINH_430ED84A",
+          "label": "Tân Bình",
+          "model_value": "Tân Bình"
+        },
+        {
+          "code": "D_TAN_PHU_C8BEADCE",
+          "label": "Tân Phú",
+          "model_value": "Tân Phú"
+        }
+      ]
+    },
+    {
+      "code": "P_HO_CHI_MINH_GIA_2TY380_2AED47BA",
+      "label": "Hồ Chí Minh giá 2tỷ380",
+      "model_value": "Hồ Chí Minh giá 2tỷ380",
+      "districts": [
+        {
+          "code": "D_TAN_BINH_50ADA9E4",
+          "label": "Tân Bình",
+          "model_value": "Tân Bình"
+        }
+      ]
+    },
+    {
+      "code": "P_HO_CHI_MINH_E55C2DB8",
+      "label": "Hồ Chí Mính",
+      "model_value": "Hồ Chí Mính",
+      "districts": [
+        {
+          "code": "D_BINH_TAN_4E978736",
+          "label": "Bình Tân",
+          "model_value": "Bình Tân"
+        }
+      ]
+    },
+    {
+      "code": "P_KHANH_HOA_A6EA9309",
+      "label": "Khánh Hòa",
+      "model_value": "Khánh Hòa",
+      "districts": [
+        {
+          "code": "D_CAM_LAM_C0A1C913",
+          "label": "Cam Lâm",
+          "model_value": "Cam Lâm"
+        },
+        {
+          "code": "D_CAM_RANH_C8EED736",
+          "label": "Cam Ranh",
+          "model_value": "Cam Ranh"
+        },
+        {
+          "code": "D_DIEN_KHANH_43A14D53",
+          "label": "Diên Khánh",
+          "model_value": "Diên Khánh"
+        },
+        {
+          "code": "D_HUYEN_DIEN_KHANH_6142E0D9",
+          "label": "Huyện Diên Khánh",
+          "model_value": "Huyện Diên Khánh"
+        },
+        {
+          "code": "D_NHA_TRANG_DA9022FC",
+          "label": "Nha Trang",
+          "model_value": "Nha Trang"
+        },
+        {
+          "code": "D_NINH_HOA_29989AA2",
+          "label": "Ninh Hòa",
+          "model_value": "Ninh Hòa"
+        },
+        {
+          "code": "D_THANH_PHO_NHA_TRANG_0B8CC051",
+          "label": "Thành phố Nha Trang",
+          "model_value": "Thành phố Nha Trang"
+        },
+        {
+          "code": "D_VAN_NINH_AE211644",
+          "label": "Vạn Ninh",
+          "model_value": "Vạn Ninh"
+        }
+      ]
+    },
+    {
+      "code": "P_KIEN_GIANG_F6981EAA",
+      "label": "Kiên Giang",
+      "model_value": "Kiên Giang",
+      "districts": [
+        {
+          "code": "D_HA_TIEN_58131F02",
+          "label": "Hà Tiên",
+          "model_value": "Hà Tiên"
+        },
+        {
+          "code": "D_PHU_QUOC_BA8ED4F7",
+          "label": "Phú Quốc",
+          "model_value": "Phú Quốc"
+        },
+        {
+          "code": "D_RACH_GIA_BCD43D4C",
+          "label": "Rạch Giá",
+          "model_value": "Rạch Giá"
+        },
+        {
+          "code": "D_THANH_PHO_HA_TIEN_D7FC7CC9",
+          "label": "Thành phố Hà Tiên",
+          "model_value": "Thành phố Hà Tiên"
+        },
+        {
+          "code": "D_THANH_PHO_PHU_QUOC_2536D0BC",
+          "label": "Thành phố Phú Quốc",
+          "model_value": "Thành phố Phú Quốc"
+        }
+      ]
+    },
+    {
+      "code": "P_KON_TUM_F8B3670A",
+      "label": "Kon Tum",
+      "model_value": "Kon Tum",
+      "districts": [
+        {
+          "code": "D_KONTUM_9FD4FA01",
+          "label": "KonTum",
+          "model_value": "KonTum"
+        }
+      ]
+    },
+    {
+      "code": "P_LONG_AN_66D129C2",
+      "label": "Long An",
+      "model_value": "Long An",
+      "districts": [
+        {
+          "code": "D_BEN_LUC_4AC5FC57",
+          "label": "Bến Lức",
+          "model_value": "Bến Lức"
+        },
+        {
+          "code": "D_CHAU_THANH_B1AB612B",
+          "label": "Châu Thành",
+          "model_value": "Châu Thành"
+        },
+        {
+          "code": "D_CAN_GIUOC_19AA5BCF",
+          "label": "Cần Giuộc",
+          "model_value": "Cần Giuộc"
+        },
+        {
+          "code": "D_CAN_UOC_CCD07205",
+          "label": "Cần Đước",
+          "model_value": "Cần Đước"
+        },
+        {
+          "code": "D_HUYEN_BEN_LUC_32AC2D71",
+          "label": "Huyện Bến Lức",
+          "model_value": "Huyện Bến Lức"
+        },
+        {
+          "code": "D_HUYEN_UC_HOA_6344E72A",
+          "label": "Huyện Đức Hòa",
+          "model_value": "Huyện Đức Hòa"
+        },
+        {
+          "code": "D_THU_THUA_45EC3A28",
+          "label": "Thủ Thừa",
+          "model_value": "Thủ Thừa"
+        },
+        {
+          "code": "D_TAN_AN_2CACA490",
+          "label": "Tân An",
+          "model_value": "Tân An"
+        },
+        {
+          "code": "D_TAN_THANH_81F6F6E9",
+          "label": "Tân Thạnh",
+          "model_value": "Tân Thạnh"
+        },
+        {
+          "code": "D_TAN_TRU_351E0E96",
+          "label": "Tân Trụ",
+          "model_value": "Tân Trụ"
+        },
+        {
+          "code": "D_UC_HOA_A7DB0F64",
+          "label": "Đức Hòa",
+          "model_value": "Đức Hòa"
+        }
+      ]
+    },
+    {
+      "code": "P_LAO_CAI_99EE07E1",
+      "label": "Lào Cai",
+      "model_value": "Lào Cai",
+      "districts": [
+        {
+          "code": "D_LAO_CAI_BEE3C1BA",
+          "label": "Lào Cai",
+          "model_value": "Lào Cai"
+        },
+        {
+          "code": "D_SA_PA_6CA54445",
+          "label": "Sa Pa",
+          "model_value": "Sa Pa"
+        },
+        {
+          "code": "D_THI_XA_SA_PA_1A8DCCCF",
+          "label": "Thị xã Sa Pa",
+          "model_value": "Thị xã Sa Pa"
+        }
+      ]
+    },
+    {
+      "code": "P_LAM_ONG_941AA18A",
+      "label": "Lâm Đồng",
+      "model_value": "Lâm Đồng",
+      "districts": [
+        {
+          "code": "D_BAO_LAM_F7633A1D",
+          "label": "Bảo Lâm",
+          "model_value": "Bảo Lâm"
+        },
+        {
+          "code": "D_BAO_LOC_5ECF17B1",
+          "label": "Bảo Lộc",
+          "model_value": "Bảo Lộc"
+        },
+        {
+          "code": "D_DI_LINH_404142B2",
+          "label": "Di Linh",
+          "model_value": "Di Linh"
+        },
+        {
+          "code": "D_HUYEN_BAO_LAM_651F3E5A",
+          "label": "Huyện Bảo Lâm",
+          "model_value": "Huyện Bảo Lâm"
+        },
+        {
+          "code": "D_HUYEN_LAM_HA_F45CA06B",
+          "label": "Huyện Lâm Hà",
+          "model_value": "Huyện Lâm Hà"
+        },
+        {
+          "code": "D_HUYEN_ON_DUONG_3EC6CDB2",
+          "label": "Huyện Đơn Dương",
+          "model_value": "Huyện Đơn Dương"
+        },
+        {
+          "code": "D_LAM_HA_194AF1E3",
+          "label": "Lâm Hà",
+          "model_value": "Lâm Hà"
+        },
+        {
+          "code": "D_A_LAT_E9D32374",
+          "label": "Đà Lạt",
+          "model_value": "Đà Lạt"
+        },
+        {
+          "code": "D_ON_DUONG_AD4DF408",
+          "label": "Đơn Dương",
+          "model_value": "Đơn Dương"
+        },
+        {
+          "code": "D_UC_TRONG_1D7D1529",
+          "label": "Đức Trọng",
+          "model_value": "Đức Trọng"
+        }
+      ]
+    },
+    {
+      "code": "P_LANG_SON_7067EB78",
+      "label": "Lạng Sơn",
+      "model_value": "Lạng Sơn",
+      "districts": [
+        {
+          "code": "D_LANG_SON_131BAD4A",
+          "label": "Lạng Sơn",
+          "model_value": "Lạng Sơn"
+        }
+      ]
+    },
+    {
+      "code": "P_NAM_INH_8388A317",
+      "label": "Nam Định",
+      "model_value": "Nam Định",
+      "districts": [
+        {
+          "code": "D_GIAO_THUY_FA103262",
+          "label": "Giao Thủy",
+          "model_value": "Giao Thủy"
+        },
+        {
+          "code": "D_NAM_INH_9E7B1561",
+          "label": "Nam Định",
+          "model_value": "Nam Định"
+        },
+        {
+          "code": "D_NGHIA_HUNG_740F08D4",
+          "label": "Nghĩa Hưng",
+          "model_value": "Nghĩa Hưng"
+        }
+      ]
+    },
+    {
+      "code": "P_NGHE_AN_015ECFCD",
+      "label": "Nghệ An",
+      "model_value": "Nghệ An",
+      "districts": [
+        {
+          "code": "D_THAI_HOA_7FD4C260",
+          "label": "Thái Hòa",
+          "model_value": "Thái Hòa"
+        },
+        {
+          "code": "D_VINH_30910EB7",
+          "label": "Vinh",
+          "model_value": "Vinh"
+        }
+      ]
+    },
+    {
+      "code": "P_NINH_BINH_C09F20AA",
+      "label": "Ninh Bình",
+      "model_value": "Ninh Bình",
+      "districts": [
+        {
+          "code": "D_KIM_SON_A1CE0622",
+          "label": "Kim Sơn",
+          "model_value": "Kim Sơn"
+        },
+        {
+          "code": "D_NINH_BINH_017DB6E5",
+          "label": "Ninh Bình",
+          "model_value": "Ninh Bình"
+        }
+      ]
+    },
+    {
+      "code": "P_NINH_THUAN_F9506E1C",
+      "label": "Ninh Thuận",
+      "model_value": "Ninh Thuận",
+      "districts": [
+        {
+          "code": "D_NINH_HAI_7375CE07",
+          "label": "Ninh Hải",
+          "model_value": "Ninh Hải"
+        },
+        {
+          "code": "D_PHAN_RANG_THAP_CHAM_B017B15F",
+          "label": "Phan Rang - Tháp Chàm",
+          "model_value": "Phan Rang - Tháp Chàm"
+        },
+        {
+          "code": "D_THUAN_NAM_CA4605E4",
+          "label": "Thuận Nam",
+          "model_value": "Thuận Nam"
+        }
+      ]
+    },
+    {
+      "code": "P_PHONG_CONG_CHUNG_NGUYEN_THI_THAN_7353198A",
+      "label": "Phòng công chứng Nguyễn Thị Thành",
+      "model_value": "Phòng công chứng Nguyễn Thị Thành",
+      "districts": [
+        {
+          "code": "D_UNKNOWN_5FCC02CC",
+          "label": "Unknown",
+          "model_value": "Unknown"
+        }
+      ]
+    },
+    {
+      "code": "P_PHU_THO_B572519D",
+      "label": "Phú Thọ",
+      "model_value": "Phú Thọ",
+      "districts": [
+        {
+          "code": "D_HA_HOA_C5C5278F",
+          "label": "Hạ Hòa",
+          "model_value": "Hạ Hòa"
+        },
+        {
+          "code": "D_PHU_THO_1FBBDAB0",
+          "label": "Phú Thọ",
+          "model_value": "Phú Thọ"
+        },
+        {
+          "code": "D_THANH_THUY_BC2EA416",
+          "label": "Thanh Thủy",
+          "model_value": "Thanh Thủy"
+        },
+        {
+          "code": "D_VIET_TRI_0CAC2344",
+          "label": "Việt Trì",
+          "model_value": "Việt Trì"
+        }
+      ]
+    },
+    {
+      "code": "P_PHU_YEN_B768485C",
+      "label": "Phú Yên",
+      "model_value": "Phú Yên",
+      "districts": [
+        {
+          "code": "D_SONG_CAU_D710FE7D",
+          "label": "Sông Cầu",
+          "model_value": "Sông Cầu"
+        },
+        {
+          "code": "D_TUY_HOA_C11A9121",
+          "label": "Tuy Hòa",
+          "model_value": "Tuy Hòa"
+        },
+        {
+          "code": "D_ONG_HOA_B232695C",
+          "label": "Đông Hòa",
+          "model_value": "Đông Hòa"
+        }
+      ]
+    },
+    {
+      "code": "P_QUANG_BINH_727D92DD",
+      "label": "Quảng Bình",
+      "model_value": "Quảng Bình",
+      "districts": [
+        {
+          "code": "D_QUANG_TRACH_3EFFBC92",
+          "label": "Quảng Trạch",
+          "model_value": "Quảng Trạch"
+        }
+      ]
+    },
+    {
+      "code": "P_QUANG_NAM_58784570",
+      "label": "Quảng Nam",
+      "model_value": "Quảng Nam",
+      "districts": [
+        {
+          "code": "D_DUY_XUYEN_FB4A0954",
+          "label": "Duy Xuyên",
+          "model_value": "Duy Xuyên"
+        },
+        {
+          "code": "D_HOI_AN_DD69D7BA",
+          "label": "Hội An",
+          "model_value": "Hội An"
+        },
+        {
+          "code": "D_NUI_THANH_0E9AD92D",
+          "label": "Núi Thành",
+          "model_value": "Núi Thành"
+        },
+        {
+          "code": "D_TAM_KY_31D5C9CC",
+          "label": "Tam Kỳ",
+          "model_value": "Tam Kỳ"
+        },
+        {
+          "code": "D_IEN_BAN_871305A6",
+          "label": "Điện Bàn",
+          "model_value": "Điện Bàn"
+        }
+      ]
+    },
+    {
+      "code": "P_QUANG_NGAI_6A862461",
+      "label": "Quảng Ngãi",
+      "model_value": "Quảng Ngãi",
+      "districts": [
+        {
+          "code": "D_LY_SON_6A737DBF",
+          "label": "Lý Sơn",
+          "model_value": "Lý Sơn"
+        },
+        {
+          "code": "D_QUANG_NGAI_22064BA5",
+          "label": "Quảng Ngãi",
+          "model_value": "Quảng Ngãi"
+        }
+      ]
+    },
+    {
+      "code": "P_QUANG_NINH_0AEE7D73",
+      "label": "Quảng Ninh",
+      "model_value": "Quảng Ninh",
+      "districts": [
+        {
+          "code": "D_CAM_PHA_FECC96C4",
+          "label": "Cẩm Phả",
+          "model_value": "Cẩm Phả"
+        },
+        {
+          "code": "D_HUYEN_VAN_ON_796DE742",
+          "label": "Huyện Vân Đồn",
+          "model_value": "Huyện Vân Đồn"
+        },
+        {
+          "code": "D_HA_LONG_FAF77303",
+          "label": "Hạ Long",
+          "model_value": "Hạ Long"
+        },
+        {
+          "code": "D_MONG_CAI_BE94C10F",
+          "label": "Móng Cái",
+          "model_value": "Móng Cái"
+        },
+        {
+          "code": "D_THANH_PHO_CAM_PHA_D6320A40",
+          "label": "Thành phố Cẩm Phả",
+          "model_value": "Thành phố Cẩm Phả"
+        },
+        {
+          "code": "D_THANH_PHO_HA_LONG_AB5A9967",
+          "label": "Thành phố Hạ Long",
+          "model_value": "Thành phố Hạ Long"
+        },
+        {
+          "code": "D_THANH_PHO_MONG_CAI_AF6E155B",
+          "label": "Thành phố Móng Cái",
+          "model_value": "Thành phố Móng Cái"
+        },
+        {
+          "code": "D_UONG_BI_BF778338",
+          "label": "Uông Bí",
+          "model_value": "Uông Bí"
+        },
+        {
+          "code": "D_VAN_ON_96C25F0A",
+          "label": "Vân Đồn",
+          "model_value": "Vân Đồn"
+        }
+      ]
+    },
+    {
+      "code": "P_QUANG_NINH_NGA_3_UONG_HON_GAI_CU_0BFB7898",
+      "label": "Quảng Ninh (Ngã 3 đường Hòn Gai cũ)",
+      "model_value": "Quảng Ninh (Ngã 3 đường Hòn Gai cũ)",
+      "districts": [
+        {
+          "code": "D_CAM_PHA_70BD29A7",
+          "label": "Cẩm Phả",
+          "model_value": "Cẩm Phả"
+        }
+      ]
+    },
+    {
+      "code": "P_QUANG_TRI_A4D7BF20",
+      "label": "Quảng Trị",
+      "model_value": "Quảng Trị",
+      "districts": [
+        {
+          "code": "D_THANH_PHO_ONG_HA_8D7C2A3E",
+          "label": "Thành phố Đông Hà",
+          "model_value": "Thành phố Đông Hà"
+        },
+        {
+          "code": "D_ONG_HA_A3F6C0AC",
+          "label": "Đông Hà",
+          "model_value": "Đông Hà"
+        }
+      ]
+    },
+    {
+      "code": "P_QUAN_8_C6519DB5",
+      "label": "Quận 8",
+      "model_value": "Quận 8",
+      "districts": [
+        {
+          "code": "D_PHUONG_3_58C9B8CB",
+          "label": "Phường 3",
+          "model_value": "Phường 3"
+        }
+      ]
+    },
+    {
+      "code": "P_QUAN_BINH_THANH_2CC9B185",
+      "label": "Quận Bình Thạnh",
+      "model_value": "Quận Bình Thạnh",
+      "districts": [
+        {
+          "code": "D_PHUONG_5_570C8FF6",
+          "label": "Phường 5",
+          "model_value": "Phường 5"
+        }
+      ]
+    },
+    {
+      "code": "P_QUAN_NAM_TU_LIEM_20E35B30",
+      "label": "Quận Nam Từ Liêm",
+      "model_value": "Quận Nam Từ Liêm",
+      "districts": [
+        {
+          "code": "D_PHUONG_AI_MO_2666EC30",
+          "label": "Phường Đại Mỗ",
+          "model_value": "Phường Đại Mỗ"
+        }
+      ]
+    },
+    {
+      "code": "P_SOC_TRANG_D7836EFD",
+      "label": "Sóc Trăng",
+      "model_value": "Sóc Trăng",
+      "districts": [
+        {
+          "code": "D_SOC_TRANG_B062A063",
+          "label": "Sóc Trăng",
+          "model_value": "Sóc Trăng"
+        }
+      ]
+    },
+    {
+      "code": "P_SON_LA_37057F02",
+      "label": "Sơn La",
+      "model_value": "Sơn La",
+      "districts": [
+        {
+          "code": "D_MAI_SON_A3B117E0",
+          "label": "Mai Sơn",
+          "model_value": "Mai Sơn"
+        },
+        {
+          "code": "D_MOC_CHAU_53C1B2AC",
+          "label": "Mộc Châu",
+          "model_value": "Mộc Châu"
+        }
+      ]
+    },
+    {
+      "code": "P_TP_CAM_RANH_F6BD19E7",
+      "label": "TP. Cam Ranh",
+      "model_value": "TP. Cam Ranh",
+      "districts": [
+        {
+          "code": "D_PHUONG_CAM_NGHIA_C4C7DD39",
+          "label": "Phường Cam Nghĩa",
+          "model_value": "Phường Cam Nghĩa"
+        }
+      ]
+    },
+    {
+      "code": "P_TP_HCM_69EA1E26",
+      "label": "TP. HCM",
+      "model_value": "TP. HCM",
+      "districts": [
+        {
+          "code": "D_QUAN_7_F7C9B699",
+          "label": "Quận 7",
+          "model_value": "Quận 7"
+        },
+        {
+          "code": "D_QUAN_TAN_BINH_1F346D2A",
+          "label": "quận Tân Bình",
+          "model_value": "quận Tân Bình"
+        }
+      ]
+    },
+    {
+      "code": "P_TPHCM_8B7C2B39",
+      "label": "TPHCM",
+      "model_value": "TPHCM",
+      "districts": [
+        {
+          "code": "D_BINH_TAN_C62E5F95",
+          "label": "Bình Tân",
+          "model_value": "Bình Tân"
+        }
+      ]
+    },
+    {
+      "code": "P_THANH_HOA_8678426C",
+      "label": "Thanh Hóa",
+      "model_value": "Thanh Hóa",
+      "districts": [
+        {
+          "code": "D_HOANG_HOA_CE4100A0",
+          "label": "Hoằng Hóa",
+          "model_value": "Hoằng Hóa"
+        },
+        {
+          "code": "D_SAM_SON_49D289C6",
+          "label": "Sầm Sơn",
+          "model_value": "Sầm Sơn"
+        },
+        {
+          "code": "D_THANH_HOA_87C11A41",
+          "label": "Thanh Hóa",
+          "model_value": "Thanh Hóa"
+        },
+        {
+          "code": "D_THANH_PHO_THANH_HOA_48481080",
+          "label": "Thành phố Thanh Hóa",
+          "model_value": "Thành phố Thanh Hóa"
+        },
+        {
+          "code": "D_THACH_THANH_2F546567",
+          "label": "Thạch Thành",
+          "model_value": "Thạch Thành"
+        },
+        {
+          "code": "D_ONG_SON_EABE001D",
+          "label": "Đông Sơn",
+          "model_value": "Đông Sơn"
+        }
+      ]
+    },
+    {
+      "code": "P_THAI_BINH_7B516096",
+      "label": "Thái Bình",
+      "model_value": "Thái Bình",
+      "districts": [
+        {
+          "code": "D_THAI_BINH_CA4D9A16",
+          "label": "Thái Bình",
+          "model_value": "Thái Bình"
+        },
+        {
+          "code": "D_THAI_THUY_3062288F",
+          "label": "Thái Thuỵ",
+          "model_value": "Thái Thuỵ"
+        },
+        {
+          "code": "D_ONG_HUNG_87D9EF22",
+          "label": "Đông Hưng",
+          "model_value": "Đông Hưng"
+        }
+      ]
+    },
+    {
+      "code": "P_THAI_NGUYEN_E4B4311A",
+      "label": "Thái Nguyên",
+      "model_value": "Thái Nguyên",
+      "districts": [
+        {
+          "code": "D_PHO_YEN_B83D1814",
+          "label": "Phổ Yên",
+          "model_value": "Phổ Yên"
+        },
+        {
+          "code": "D_SONG_CONG_CE3D07BF",
+          "label": "Sông Công",
+          "model_value": "Sông Công"
+        },
+        {
+          "code": "D_THAI_NGUYEN_7C6A0448",
+          "label": "Thái Nguyên",
+          "model_value": "Thái Nguyên"
+        }
+      ]
+    },
+    {
+      "code": "P_THUA_THIEN_HUE_08F1517C",
+      "label": "Thừa Thiên Huế",
+      "model_value": "Thừa Thiên Huế",
+      "districts": [
+        {
+          "code": "D_HUE_BB343DB9",
+          "label": "Huế",
+          "model_value": "Huế"
+        },
+        {
+          "code": "D_HUONG_THUY_ACC65538",
+          "label": "Hương Thủy",
+          "model_value": "Hương Thủy"
+        },
+        {
+          "code": "D_HUONG_TRA_ABF48E7A",
+          "label": "Hương Trà",
+          "model_value": "Hương Trà"
+        }
+      ]
+    },
+    {
+      "code": "P_TIEN_GIANG_0639FAF1",
+      "label": "Tiền Giang",
+      "model_value": "Tiền Giang",
+      "districts": [
+        {
+          "code": "D_CAI_LAY_BC4F7CF2",
+          "label": "Cai Lậy",
+          "model_value": "Cai Lậy"
+        },
+        {
+          "code": "D_CHAU_THANH_756DCC8A",
+          "label": "Châu Thành",
+          "model_value": "Châu Thành"
+        },
+        {
+          "code": "D_CHO_GAO_A234743D",
+          "label": "Chợ Gạo",
+          "model_value": "Chợ Gạo"
+        },
+        {
+          "code": "D_GO_CONG_9934ADA9",
+          "label": "Gò Công",
+          "model_value": "Gò Công"
+        },
+        {
+          "code": "D_MY_THO_7D952CB2",
+          "label": "Mỹ Tho",
+          "model_value": "Mỹ Tho"
+        }
+      ]
+    },
+    {
+      "code": "P_TPHCM_070F2827",
+      "label": "TpHCM",
+      "model_value": "TpHCM",
+      "districts": [
+        {
+          "code": "D_QUAN_7_D83CA051",
+          "label": "Quận 7",
+          "model_value": "Quận 7"
+        }
+      ]
+    },
+    {
+      "code": "P_TRA_VINH_13A6E70B",
+      "label": "Trà Vinh",
+      "model_value": "Trà Vinh",
+      "districts": [
+        {
+          "code": "D_CHAU_THANH_564C7CC9",
+          "label": "Châu Thành",
+          "model_value": "Châu Thành"
+        },
+        {
+          "code": "D_TRA_VINH_20F5CEDE",
+          "label": "Trà Vinh",
+          "model_value": "Trà Vinh"
+        }
+      ]
+    },
+    {
+      "code": "P_TUYEN_QUANG_02E3F322",
+      "label": "Tuyên Quang",
+      "model_value": "Tuyên Quang",
+      "districts": [
+        {
+          "code": "D_SON_DUONG_F815393E",
+          "label": "Sơn Dương",
+          "model_value": "Sơn Dương"
+        }
+      ]
+    },
+    {
+      "code": "P_TAY_NINH_4D7DFBFA",
+      "label": "Tây Ninh",
+      "model_value": "Tây Ninh",
+      "districts": [
+        {
+          "code": "D_DUONG_MINH_CHAU_6B908CF1",
+          "label": "Dương Minh Châu",
+          "model_value": "Dương Minh Châu"
+        },
+        {
+          "code": "D_GO_DAU_F4C72F64",
+          "label": "Gò Dầu",
+          "model_value": "Gò Dầu"
+        },
+        {
+          "code": "D_HUYEN_DUONG_MINH_CHAU_F622EF4A",
+          "label": "Huyện Dương Minh Châu",
+          "model_value": "Huyện Dương Minh Châu"
+        },
+        {
+          "code": "D_HOA_THANH_AD3C3D58",
+          "label": "Hòa Thành",
+          "model_value": "Hòa Thành"
+        },
+        {
+          "code": "D_TRANG_BANG_5AACF992",
+          "label": "Trảng Bàng",
+          "model_value": "Trảng Bàng"
+        },
+        {
+          "code": "D_TAY_NINH_7D33AB3C",
+          "label": "Tây Ninh",
+          "model_value": "Tây Ninh"
+        }
+      ]
+    },
+    {
+      "code": "P_VINH_LONG_B7DB1C96",
+      "label": "Vĩnh Long",
+      "model_value": "Vĩnh Long",
+      "districts": [
+        {
+          "code": "D_BINH_MINH_3E5F1123",
+          "label": "Bình Minh",
+          "model_value": "Bình Minh"
+        },
+        {
+          "code": "D_LONG_HO_1ABDD5A6",
+          "label": "Long Hồ",
+          "model_value": "Long Hồ"
+        },
+        {
+          "code": "D_VINH_LONG_D07D0FCE",
+          "label": "Vĩnh Long",
+          "model_value": "Vĩnh Long"
+        }
+      ]
+    },
+    {
+      "code": "P_VINH_PHUC_00704391",
+      "label": "Vĩnh Phúc",
+      "model_value": "Vĩnh Phúc",
+      "districts": [
+        {
+          "code": "D_BINH_XUYEN_77333E52",
+          "label": "Bình Xuyên",
+          "model_value": "Bình Xuyên"
+        },
+        {
+          "code": "D_HUYEN_YEN_LAC_3280893D",
+          "label": "Huyện Yên Lạc",
+          "model_value": "Huyện Yên Lạc"
+        },
+        {
+          "code": "D_PHUC_YEN_8A5E5132",
+          "label": "Phúc Yên",
+          "model_value": "Phúc Yên"
+        },
+        {
+          "code": "D_TAM_AO_AD85B323",
+          "label": "Tam Đảo",
+          "model_value": "Tam Đảo"
+        },
+        {
+          "code": "D_VINH_TUONG_1337B2DE",
+          "label": "Vĩnh Tường",
+          "model_value": "Vĩnh Tường"
+        },
+        {
+          "code": "D_VINH_YEN_21C1746E",
+          "label": "Vĩnh Yên",
+          "model_value": "Vĩnh Yên"
+        }
+      ]
+    },
+    {
+      "code": "P_YEN_BAI_C8D2AA5F",
+      "label": "Yên Bái",
+      "model_value": "Yên Bái",
+      "districts": [
+        {
+          "code": "D_NGHIA_LO_718F7F64",
+          "label": "Nghĩa Lộ",
+          "model_value": "Nghĩa Lộ"
+        },
+        {
+          "code": "D_YEN_BAI_264A5098",
+          "label": "Yên Bái",
+          "model_value": "Yên Bái"
+        }
+      ]
+    },
+    {
+      "code": "P_GIA_6TY_C49AB214",
+      "label": "giá 6ty",
+      "model_value": "giá 6ty",
+      "districts": [
+        {
+          "code": "D_HCM_71716E8A",
+          "label": "HCM",
+          "model_value": "HCM"
+        }
+      ]
+    },
+    {
+      "code": "P_IEN_BIEN_1E1E906E",
+      "label": "Điện Biên",
+      "model_value": "Điện Biên",
+      "districts": [
+        {
+          "code": "D_THANH_PHO_IEN_BIEN_PHU_2A90558B",
+          "label": "Thành phố Điện Biên Phủ",
+          "model_value": "Thành phố Điện Biên Phủ"
+        },
+        {
+          "code": "D_IEN_BIEN_PHU_E76A97B5",
+          "label": "Điện Biên Phủ",
+          "model_value": "Điện Biên Phủ"
+        }
+      ]
+    },
+    {
+      "code": "P_A_NANG_DEDC0935",
+      "label": "Đà Nẵng",
+      "model_value": "Đà Nẵng",
+      "districts": [
+        {
+          "code": "D_CAM_LE_28823248",
+          "label": "Cẩm Lệ",
+          "model_value": "Cẩm Lệ"
+        },
+        {
+          "code": "D_HOA_VANG_5BB0D5E3",
+          "label": "Hòa Vang",
+          "model_value": "Hòa Vang"
+        },
+        {
+          "code": "D_HAI_CHAU_50C4465E",
+          "label": "Hải Châu",
+          "model_value": "Hải Châu"
+        },
+        {
+          "code": "D_LIEN_CHIEU_9D0F99C2",
+          "label": "Liên Chiểu",
+          "model_value": "Liên Chiểu"
+        },
+        {
+          "code": "D_NGU_HANH_SON_E77523C6",
+          "label": "Ngũ Hành Sơn",
+          "model_value": "Ngũ Hành Sơn"
+        },
+        {
+          "code": "D_QUAN_CAM_LE_189EABC0",
+          "label": "Quận Cẩm Lệ",
+          "model_value": "Quận Cẩm Lệ"
+        },
+        {
+          "code": "D_QUAN_HAI_CHAU_BD0D3680",
+          "label": "Quận Hải Châu",
+          "model_value": "Quận Hải Châu"
+        },
+        {
+          "code": "D_QUAN_LIEN_CHIEU_8815CB95",
+          "label": "Quận Liên Chiểu",
+          "model_value": "Quận Liên Chiểu"
+        },
+        {
+          "code": "D_QUAN_NGU_HANH_SON_22D57F09",
+          "label": "Quận Ngũ Hành Sơn",
+          "model_value": "Quận Ngũ Hành Sơn"
+        },
+        {
+          "code": "D_QUAN_THANH_KHE_21135595",
+          "label": "Quận Thanh Khê",
+          "model_value": "Quận Thanh Khê"
+        },
+        {
+          "code": "D_SON_TRA_3BED85BD",
+          "label": "Sơn Trà",
+          "model_value": "Sơn Trà"
+        },
+        {
+          "code": "D_THANH_KHE_DEA95B4B",
+          "label": "Thanh Khê",
+          "model_value": "Thanh Khê"
+        }
+      ]
+    },
+    {
+      "code": "P_UONG_SO_11_F342D03E",
+      "label": "Đường số 11",
+      "model_value": "Đường số 11",
+      "districts": [
+        {
+          "code": "D_UNKNOWN_2F04DDE9",
+          "label": "Unknown",
+          "model_value": "Unknown"
+        }
+      ]
+    },
+    {
+      "code": "P_AK_LAK_18FCCD32",
+      "label": "Đắk Lắk",
+      "model_value": "Đắk Lắk",
+      "districts": [
+        {
+          "code": "D_BUON_MA_THUOT_D5F2CB4F",
+          "label": "Buôn Ma Thuột",
+          "model_value": "Buôn Ma Thuột"
+        },
+        {
+          "code": "D_CU_KUIN_2CE649E6",
+          "label": "Cư Kuin",
+          "model_value": "Cư Kuin"
+        },
+        {
+          "code": "D_CU_M_GAR_B5173F0B",
+          "label": "Cư M'gar",
+          "model_value": "Cư M'gar"
+        },
+        {
+          "code": "D_EA_KAR_5B160B50",
+          "label": "Ea Kar",
+          "model_value": "Ea Kar"
+        },
+        {
+          "code": "D_THANH_PHO_BUON_MA_THUOT_0BC3D541",
+          "label": "Thành phố Buôn Ma Thuột",
+          "model_value": "Thành phố Buôn Ma Thuột"
+        }
+      ]
+    },
+    {
+      "code": "P_ONG_NAI_C7DAEA9C",
+      "label": "Đồng Nai",
+      "model_value": "Đồng Nai",
+      "districts": [
+        {
+          "code": "D_BIEN_HOA_4112FAF4",
+          "label": "Biên Hòa",
+          "model_value": "Biên Hòa"
+        },
+        {
+          "code": "D_HUYEN_LONG_THANH_AC5DCC6C",
+          "label": "Huyện Long Thành",
+          "model_value": "Huyện Long Thành"
+        },
+        {
+          "code": "D_HUYEN_NHON_TRACH_C0B8EB6D",
+          "label": "Huyện Nhơn Trạch",
+          "model_value": "Huyện Nhơn Trạch"
+        },
+        {
+          "code": "D_LONG_KHANH_CAF8BAAF",
+          "label": "Long Khánh",
+          "model_value": "Long Khánh"
+        },
+        {
+          "code": "D_LONG_THANH_3EE03237",
+          "label": "Long Thành",
+          "model_value": "Long Thành"
+        },
+        {
+          "code": "D_NHON_TRACH_AFBB7A1B",
+          "label": "Nhơn Trạch",
+          "model_value": "Nhơn Trạch"
+        },
+        {
+          "code": "D_THANH_PHO_BIEN_HOA_4F669BA6",
+          "label": "Thành phố Biên Hòa",
+          "model_value": "Thành phố Biên Hòa"
+        },
+        {
+          "code": "D_THONG_NHAT_F0D5623C",
+          "label": "Thống Nhất",
+          "model_value": "Thống Nhất"
+        },
+        {
+          "code": "D_TRANG_BOM_FB04FA4D",
+          "label": "Trảng Bom",
+          "model_value": "Trảng Bom"
+        },
+        {
+          "code": "D_VINH_CUU_CB7FB996",
+          "label": "Vĩnh Cửu",
+          "model_value": "Vĩnh Cửu"
+        },
+        {
+          "code": "D_XUAN_LOC_9BE843C2",
+          "label": "Xuân Lộc",
+          "model_value": "Xuân Lộc"
+        },
+        {
+          "code": "D_INH_QUAN_66ECED7A",
+          "label": "Định Quán",
+          "model_value": "Định Quán"
+        }
+      ]
+    },
+    {
+      "code": "P_ONG_THAP_635C4A37",
+      "label": "Đồng Tháp",
+      "model_value": "Đồng Tháp",
+      "districts": [
+        {
+          "code": "D_CAO_LANH_DAFCBD42",
+          "label": "Cao Lãnh",
+          "model_value": "Cao Lãnh"
+        },
+        {
+          "code": "D_SA_EC_90AECE9F",
+          "label": "Sa Đéc",
+          "model_value": "Sa Đéc"
+        }
+      ]
+    }
+  ]
+}

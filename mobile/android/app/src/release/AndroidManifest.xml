@@ -1,0 +1,4 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Demo classroom build: the backend runs on the laptop over the local Wi-Fi. -->
+    <application android:usesCleartextTraffic="true"/>
+</manifest>

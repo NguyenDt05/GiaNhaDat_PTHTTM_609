@@ -1,0 +1,27 @@
+{
+  "environment": "Windows host, Python 3.13.6, scikit-learn 1.9.0",
+  "model_version": "rf-v2-20260822T181210Z",
+  "artifact_size_mb": 20.68,
+  "model_load_seconds": 1.7315,
+  "host_rss_delta_mb": 148.46,
+  "iterations": 300,
+  "single_prediction_latency_ms": {
+    "mean": 11.2684,
+    "p50": 9.3867,
+    "p95": 17.7473,
+    "p99": 25.0154,
+    "max": 53.9361
+  },
+  "docker": {
+    "image_size_bytes": 195542057,
+    "idle_memory_mib": 283.6,
+    "health_check": "passed",
+    "prediction_smoke_test": "passed"
+  },
+  "notes": [
+    "Host latency excludes HTTP and network overhead.",
+    "Container memory was sampled after model load and one prediction.",
+    "Run a sustained concurrency load test on staging before setting production autoscaling limits."
+  ]
+}
+

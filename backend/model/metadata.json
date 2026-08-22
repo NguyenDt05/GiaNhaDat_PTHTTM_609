@@ -1,0 +1,89 @@
+{
+  "model_version": "rf-v2-20260822T181210Z",
+  "generated_at": "2026-08-22T18:12:45.014637+00:00",
+  "artifact_filename": "house_price_random_forest_v2.joblib",
+  "artifact_sha256": "ef2db0c99e1eb4ce640549753d1d40e7d8388ee66ddf0bad99bc0ba5cad4012b",
+  "artifact_size_bytes": 21686457,
+  "training_data_sha256": "7ee188d69aca06349a81bac0c2d2d1503058d5aec7124edfd075154fa87d97c8",
+  "python_version": "3.13.6",
+  "sklearn_version": "1.9.0",
+  "evaluation_protocol": "group_shuffle_split_by_normalized_address_80_20",
+  "evaluation_rows": 6361,
+  "metrics": {
+    "mae_billion_vnd": 1.082212,
+    "mse": 2.052043,
+    "rmse_billion_vnd": 1.432496,
+    "mape_percent": 22.177227,
+    "r2": 0.562767
+  },
+  "n_estimators": 100,
+  "total_tree_nodes": 1134356,
+  "maximum_tree_depth": 24,
+  "parameters": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "criterion": "squared_error",
+    "max_depth": 24,
+    "max_features": 1.0,
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 2,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 100,
+    "n_jobs": 1,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "ood_ranges": {
+    "area_m2": {
+      "low": 21.0,
+      "high": 275.72,
+      "unit": "m2"
+    },
+    "frontage_m": {
+      "low": 3.0,
+      "high": 29.36,
+      "unit": "m"
+    },
+    "access_road_width_m": {
+      "low": 2.0,
+      "high": 40.0,
+      "unit": "m"
+    },
+    "floors": {
+      "low": 1,
+      "high": 6
+    },
+    "bedrooms": {
+      "low": 1,
+      "high": 8
+    },
+    "bathrooms": {
+      "low": 1,
+      "high": 8
+    }
+  },
+  "smoke_test": {
+    "input": {
+      "Area": 60.0,
+      "Frontage": 5.0,
+      "Access Road": 6.0,
+      "House direction": "Đông - Nam",
+      "Balcony direction": "Đông",
+      "Floors": 3,
+      "Bedrooms": 3,
+      "Bathrooms": 2,
+      "Legal status": "Have certificate",
+      "Furniture state": "Full",
+      "City": "Hà Nội",
+      "District": "Hà Đông"
+    },
+    "expected_prediction": 6.537383246753252,
+    "absolute_tolerance": 1e-09
+  }
+}

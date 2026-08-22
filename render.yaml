@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: house-price-api
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: .
+    plan: standard
+    healthCheckPath: /health/ready
+    envVars:
+      - key: HOUSE_API_ENVIRONMENT
+        value: production
+      - key: HOUSE_API_RATE_LIMIT_REQUESTS
+        value: 60
+      - key: HOUSE_API_RATE_LIMIT_WINDOW_SECONDS
+        value: 60
+      - key: HOUSE_API_BEARER_TOKEN
+        sync: false
+
