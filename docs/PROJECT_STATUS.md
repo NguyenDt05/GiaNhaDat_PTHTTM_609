@@ -16,8 +16,8 @@ Nhập dữ liệu trên trình duyệt
 
 Mobile hiện tại: `1.1.0+2`.
 
-Web mới dùng chung dịch vụ FastAPI và Blueprint Render hiện có. Chưa xác nhận
-deploy công khai từ môi trường làm việc này.
+Web mới dùng chung dịch vụ FastAPI và Blueprint Render hiện có. Mã đã được
+đẩy lên GitHub; Render chưa được kết nối nên chưa có URL deploy công khai.
 
 ## Phần đã hoàn thành
 
@@ -62,7 +62,7 @@ deploy công khai từ môi trường làm việc này.
 
 | Hạng mục | Kết quả |
 |---|---|
-| Backend tests | 10 passed (08/10/2026) |
+| Backend tests | 10 passed local và CI (08/10/2026) |
 | Flutter analyze | No issues found |
 | Flutter tests | 6 passed |
 | Docker build | Passed |
@@ -97,7 +97,7 @@ Số liệu benchmark chi tiết:
 - Thiết lập monitoring, budget alert, log retention và rollback.
 - Chạy load test trên hạ tầng thật.
 - Nếu phát hành iOS: cần macOS, Xcode và Apple Developer signing.
-- Đẩy thay đổi lên GitHub để kích hoạt GitHub Actions và bản deploy liên kết.
+- Kết nối Render với repository hoặc cung cấp deploy hook để chạy Blueprint.
 
 Các hạng mục trên cần tài khoản, billing hoặc thông tin xác thực của chủ dự án;
 chúng không chặn bản demo môn học chạy local.
