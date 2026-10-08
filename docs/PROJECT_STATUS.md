@@ -1,20 +1,23 @@
 # Trạng thái dự án
 
-Cập nhật: 23/08/2026.
+Cập nhật: 08/10/2026.
 
 ## Tổng quan
 
-Phiên bản demo local của HouseValue AI đã hoàn thành toàn bộ luồng:
+Phiên bản web local của HouseValue AI đã hoàn thành toàn bộ luồng:
 
 ```text
-Nhập dữ liệu trên Android
+Nhập dữ liệu trên trình duyệt
   → gọi FastAPI trong Docker
   → Random Forest inference
   → hiển thị kết quả
-  → lưu lịch sử trên điện thoại
+  → lưu lịch sử trên trình duyệt
 ```
 
 Mobile hiện tại: `1.1.0+2`.
+
+Web mới dùng chung dịch vụ FastAPI và Blueprint Render hiện có. Chưa xác nhận
+deploy công khai từ môi trường làm việc này.
 
 ## Phần đã hoàn thành
 
@@ -35,6 +38,11 @@ Mobile hiện tại: `1.1.0+2`.
 - Bearer token tùy chọn và rate limit cho MVP.
 - Dockerfile, Docker Compose và OpenAPI specification.
 
+### Web
+
+- Giao diện responsive, dùng cùng origin với FastAPI.
+- Form định giá, kết quả, cảnh báo và lịch sử trong `localStorage`.
+
 ### Mobile
 
 - Flutter runner cho Android, iOS và Web.
@@ -48,13 +56,13 @@ Mobile hiện tại: `1.1.0+2`.
 
 - GitHub Actions cho backend và mobile.
 - Render Blueprint.
-- Runbook triển khai Google Cloud Run.
+- Một Blueprint Render cho cả web và API.
 
 ## Kết quả xác minh
 
 | Hạng mục | Kết quả |
 |---|---|
-| Backend tests | 9 passed |
+| Backend tests | 10 passed (08/10/2026) |
 | Flutter analyze | No issues found |
 | Flutter tests | 6 passed |
 | Docker build | Passed |
@@ -82,14 +90,14 @@ Số liệu benchmark chi tiết:
 
 ## Việc còn lại trước production
 
-- Chọn Render, Cloud Run hoặc hạ tầng production khác.
+- Đồng bộ Blueprint Render và xác nhận URL công khai.
 - Cấu hình domain HTTPS ổn định.
 - Tạo Android production keystore và quản lý signing an toàn.
 - Chọn cơ chế authentication production; token tĩnh trong APK không an toàn.
 - Thiết lập monitoring, budget alert, log retention và rollback.
 - Chạy load test trên hạ tầng thật.
 - Nếu phát hành iOS: cần macOS, Xcode và Apple Developer signing.
-- Khởi tạo Git repository/push remote nếu muốn kích hoạt GitHub Actions.
+- Đẩy thay đổi lên GitHub để kích hoạt GitHub Actions và bản deploy liên kết.
 
 Các hạng mục trên cần tài khoản, billing hoặc thông tin xác thực của chủ dự án;
 chúng không chặn bản demo môn học chạy local.

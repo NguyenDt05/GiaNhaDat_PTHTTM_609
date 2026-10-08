@@ -5,7 +5,7 @@ vào cách chạy; tài liệu này giải thích cách các thành phần phố
 
 ## Mục tiêu thiết kế
 
-- Đưa mô hình Python lên mobile thông qua API mà không nhúng model vào APK.
+- Đưa mô hình Python lên web và mobile thông qua API mà không nhúng model vào client.
 - Giữ quy trình huấn luyện tách biệt khỏi runtime dự đoán.
 - Chấp nhận dữ liệu thiếu ở các trường không bắt buộc.
 - Có thể kiểm tra chính xác model nào tạo ra mỗi kết quả.
@@ -15,7 +15,7 @@ vào cách chạy; tài liệu này giải thích cách các thành phần phố
 
 ```text
 ┌────────────────────────────┐
-│ Flutter mobile             │
+│ Web browser / Flutter      │
 │                            │
 │ Form → API client → Result │
 │          │                 │
@@ -39,7 +39,10 @@ vào cách chạy; tài liệu này giải thích cách các thành phần phố
 └────────────────────────────┘
 ```
 
-## Mobile
+## Web và mobile
+
+Giao diện web nằm trong `backend/web` và được FastAPI phục vụ cùng origin với API.
+Lịch sử web lưu trong `localStorage` của trình duyệt.
 
 Mã nguồn mobile nằm trong `mobile/lib`:
 

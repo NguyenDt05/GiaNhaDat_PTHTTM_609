@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#123b38" />
+    <meta name="description" content="Ước tính giá nhà từ thông tin bất động sản với HouseValue AI." />
+    <title>HouseValue AI · Định giá nhà</title>
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/assets/style.css" />
+    <script src="/assets/app.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="/" aria-label="HouseValue AI - Trang chủ">
+          <span class="brand-mark" aria-hidden="true">⌂</span>
+          <span><strong>HouseValue</strong><small>AI · ĐỊNH GIÁ NHÀ</small></span>
+        </a>
+        <a class="header-link" href="#history">Lịch sử <span aria-hidden="true">↗</span></a>
+      </header>
+
+      <main>
+        <section class="intro" aria-labelledby="page-title">
+          <div class="intro-copy">
+            <span class="eyebrow"><span class="status-dot"></span> CÔNG CỤ ƯỚC TÍNH GIÁ NHÀ</span>
+            <h1 id="page-title">Hiểu giá trị ngôi nhà của bạn.</h1>
+            <p>Nhập vài thông tin cơ bản về bất động sản. Mô hình học máy sẽ đưa ra mức giá tham khảo trong vài giây.</p>
+            <div class="intro-meta"><span>01 · Nhập thông tin</span><span>02 · Xem ước tính</span><span>03 · Lưu lịch sử</span></div>
+          </div>
+          <div class="intro-art" aria-hidden="true"><span class="art-sun"></span><span class="art-building art-building-back"></span><span class="art-building art-building-front"></span><span class="art-ground"></span></div>
+        </section>
+
+        <div class="workspace">
+          <section class="panel form-panel" aria-labelledby="form-title">
+            <div class="panel-heading"><div><span class="section-kicker">BƯỚC 01</span><h2 id="form-title">Thông tin bất động sản</h2></div><span class="required-note">* Bắt buộc</span></div>
+            <p class="section-description">Các ô còn lại có thể để trống nếu bạn chưa có thông tin.</p>
+            <div id="options-error" class="notice error" role="alert" hidden><span id="options-error-text"></span><button id="retry-options" type="button" class="text-button">Thử lại</button></div>
+            <form id="prediction-form">
+              <fieldset class="field-group"><legend>Vị trí</legend>
+                <div class="field-grid two-col">
+                  <label>Tỉnh / thành phố <span>*</span><select id="province" name="province_code" required disabled><option value="">Đang tải địa điểm...</option></select></label>
+                  <label>Quận / huyện <span>*</span><select id="district" name="district_code" required disabled><option value="">Chọn tỉnh / thành phố trước</option></select></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="field-group"><legend>Diện tích &amp; kết cấu</legend>
+                <div class="field-grid two-col">
+                  <label>Diện tích <span>*</span><div class="input-unit"><input name="area_m2" type="text" inputmode="decimal" autocomplete="off" placeholder="Ví dụ: 60" required aria-describedby="area-hint" /><b>m²</b></div><small id="area-hint">Diện tích từ 0 đến 5.000 m²</small></label>
+                  <label>Mặt tiền<div class="input-unit"><input name="frontage_m" type="text" inputmode="decimal" autocomplete="off" placeholder="Ví dụ: 5" /><b>m</b></div></label>
+                  <label>Đường vào<div class="input-unit"><input name="access_road_width_m" type="text" inputmode="decimal" autocomplete="off" placeholder="Ví dụ: 6" /><b>m</b></div></label>
+                  <label>Số tầng<input name="floors" type="number" min="1" max="100" step="1" placeholder="Ví dụ: 3" /></label>
+                  <label>Phòng ngủ<input name="bedrooms" type="number" min="1" max="100" step="1" placeholder="Ví dụ: 3" /></label>
+                  <label>Phòng tắm<input name="bathrooms" type="number" min="1" max="100" step="1" placeholder="Ví dụ: 2" /></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="field-group"><legend>Thông tin bổ sung</legend>
+                <div class="field-grid two-col">
+                  <label>Hướng nhà<select name="house_direction"><option value="">Không rõ / bỏ qua</option><option value="NORTH">Bắc</option><option value="NORTHEAST">Đông Bắc</option><option value="EAST">Đông</option><option value="SOUTHEAST">Đông Nam</option><option value="SOUTH">Nam</option><option value="SOUTHWEST">Tây Nam</option><option value="WEST">Tây</option><option value="NORTHWEST">Tây Bắc</option></select></label>
+                  <label>Hướng ban công<select name="balcony_direction"><option value="">Không rõ / bỏ qua</option><option value="NORTH">Bắc</option><option value="NORTHEAST">Đông Bắc</option><option value="EAST">Đông</option><option value="SOUTHEAST">Đông Nam</option><option value="SOUTH">Nam</option><option value="SOUTHWEST">Tây Nam</option><option value="WEST">Tây</option><option value="NORTHWEST">Tây Bắc</option></select></label>
+                  <label>Giấy tờ pháp lý<select name="legal_status"><option value="">Không rõ / bỏ qua</option><option value="CERTIFICATE">Đã có giấy chứng nhận</option><option value="SALE_CONTRACT">Hợp đồng mua bán</option></select></label>
+                  <label>Nội thất<select name="furniture_state"><option value="">Không rõ / bỏ qua</option><option value="FULL">Đầy đủ</option><option value="BASIC">Cơ bản</option></select></label>
+                </div>
+              </fieldset>
+
+              <div id="form-error" class="notice error" role="alert" hidden></div>
+              <div class="form-actions"><button id="submit-button" class="primary-button" type="submit" disabled>Ước tính giá nhà <span aria-hidden="true">→</span></button><span>Không cần đăng ký tài khoản</span></div>
+            </form>
+          </section>
+
+          <aside class="side-column">
+            <section class="result-card" id="result" aria-live="polite" aria-labelledby="result-title">
+              <div class="result-top"><span class="section-kicker">BƯỚC 02</span><span class="result-icon" aria-hidden="true">↗</span></div>
+              <h2 id="result-title">Giá trị ước tính</h2>
+              <div id="result-empty" class="result-empty"><span class="empty-symbol" aria-hidden="true">⌂</span><p>Kết quả định giá sẽ xuất hiện ở đây sau khi bạn hoàn thành biểu mẫu.</p></div>
+              <div id="result-content" hidden><div class="price-line"><strong id="price-value"></strong><span>tỷ VNĐ</span></div><p class="price-caption">Giá tham khảo từ mô hình học máy</p><div class="result-divider"></div><div class="result-detail"><span>Phiên bản mô hình</span><strong id="model-version"></strong></div><div class="result-detail"><span>Mã dự đoán</span><code id="prediction-id"></code></div><div id="warnings" class="warnings"></div></div>
+            </section>
+            <div class="advice-card"><span class="advice-icon" aria-hidden="true">i</span><p>Kết quả chỉ mang tính tham khảo. Giá giao dịch thực tế còn phụ thuộc hiện trạng, thời điểm và thị trường khu vực.</p></div>
+          </aside>
+        </div>
+
+        <section class="history-section" id="history" aria-labelledby="history-title"><div class="history-heading"><div><span class="section-kicker">TRA CỨU GẦN ĐÂY</span><h2 id="history-title">Lịch sử định giá</h2><p>Lưu tối đa 50 kết quả trên trình duyệt này.</p></div><button id="clear-history" class="text-button" type="button" hidden>Xóa lịch sử</button></div><div id="history-list" class="history-list"><p class="history-empty">Chưa có kết quả nào. Hãy thử định giá bất động sản đầu tiên.</p></div></section>
+      </main>
+      <footer><span>© HouseValue AI</span><span>Ước tính thông minh · Quyết định từ bạn</span></footer>
+    </div>
+  </body>
+</html>

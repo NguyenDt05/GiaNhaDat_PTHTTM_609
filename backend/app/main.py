@@ -4,11 +4,13 @@ import logging
 import time
 import uuid
 from contextlib import asynccontextmanager
+from pathlib import Path
 
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
+from fastapi.responses import FileResponse, JSONResponse
+from fastapi.staticfiles import StaticFiles
 
 from backend.app.api import health, model, predictions
 from backend.app.core.config import get_settings
@@ -24,6 +26,7 @@ from backend.app.services.model_service import (
 configure_logging()
 LOGGER = logging.getLogger(__name__)
 SETTINGS = get_settings()
+WEB_DIR = Path(__file__).resolve().parents[1] / "web"
 
 
 @asynccontextmanager
@@ -64,6 +67,12 @@ if SETTINGS.cors_origins:
 app.include_router(health.router)
 app.include_router(predictions.router, prefix=SETTINGS.api_prefix)
 app.include_router(model.router, prefix=SETTINGS.api_prefix)
+app.mount("/assets", StaticFiles(directory=WEB_DIR / "assets"), name="web-assets")
+
+
+@app.get("/", include_in_schema=False)
+def web_home() -> FileResponse:
+    return FileResponse(WEB_DIR / "index.html")
 
 
 def request_id(request: Request) -> str:
@@ -137,4 +146,3 @@ async def internal_error(request: Request, exc: Exception) -> JSONResponse:
             "request_id": request_id(request),
         },
     )
-

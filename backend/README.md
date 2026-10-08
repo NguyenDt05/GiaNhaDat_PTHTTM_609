@@ -1,7 +1,8 @@
-# HouseValue API
+# HouseValue Web & API
 
-FastAPI service phục vụ Random Forest v2. Backend kiểm tra checksum, load model
-một lần và chạy smoke prediction trước khi nhận traffic.
+FastAPI phục vụ giao diện web ở `/` và Random Forest v2 qua `/api/v1`.
+Backend kiểm tra checksum, load model một lần và chạy smoke prediction trước
+khi nhận traffic.
 
 Quay lại [README chính](../README.md) · Xem
 [kiến trúc hệ thống](../docs/ARCHITECTURE.md)
@@ -48,6 +49,8 @@ Dependencies production nằm trong `backend/requirements.txt`; file
 
 | Method | Path | Mô tả |
 |---|---|---|
+| `GET` | `/` | Giao diện định giá web |
+| `GET` | `/assets/*` | CSS, JavaScript và favicon |
 | `GET` | `/health/live` | Process API còn hoạt động |
 | `GET` | `/health/ready` | Model đã load và smoke test đạt |
 | `GET` | `/api/v1/options` | Danh mục tỉnh/quận, hướng, pháp lý và nội thất |
